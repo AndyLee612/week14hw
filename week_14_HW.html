@@ -10,7 +10,7 @@
 <form action ="#">
   <input id="rollButton" type="button" value="Roll Dice"><br>
 </form>  
-<br><div id="frequencyTableDiv"></div>
+<br><div id="frequencyDiv"></div>
 
 
  <p><img id="die1" src="die1.png" alt="blank image">
@@ -109,7 +109,7 @@
  }
 
  function updateFrequencyTable(){
-      var tableDiv=document.getElementById("frequencyTableDiv");
+      var tableDiv=document.getElementById("frequencyDiv");
       tableDiv.innerHTML="<table>"+"<caption>Die Rolling Frequencies</caption>"+"<thead><th>Face</th><th>Frequency</th>"+"<th>Percent</th></thead>"+
          "<tbody><tr> <td>1</td><td>"+frequency1+"</td><td>"+Math.floor((frequency1/totalDice)*100)+"%"+"</td></tr>"+
                  "<tr><td>2</td><td>"+frequency2+"</td><td>"+Math.floor((frequency2/totalDice)*100)+"%"+"</td></tr>"+
