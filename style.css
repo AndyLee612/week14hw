@@ -1,0 +1,17 @@
+#frequencyTableDiv{
+	border: 1px solid;
+	border-radius: 5px;
+	margin: auto;
+	width: 180px;
+	text-align: center;
+	align-content: center;
+	background-color: goldenrod;
+}
+
+td{
+	border: 3px solid;
+	border-color: black;
+	background-color: #FF7F50;
+	margin: auto;
+	text-align: center;
+}
